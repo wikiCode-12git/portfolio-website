@@ -1,8 +1,8 @@
 const mysql = require("mysql2");
-const dbConfig = require("../config/dbconfig");
+const dbconfig = require("../config/dbconfig");
 
 // establish db connections
-const db = mysql.createConnection(dbConfig);
+const db = mysql.createConnection(dbconfig);
 
 // check connection if running
 db.connect(function(error) {
