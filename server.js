@@ -14,7 +14,7 @@ app.use(express.static("public"));
 
 app.use("/", contactRoutes); // connects our contact router to the main application
 
-const PORT = 3000;
-app.listen(PORT, function() {
-  console.log("server running on port 3000");
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, "0.0.0.0", ()=> {
+  console.log(`server running on port ${PORT}`);
 });
