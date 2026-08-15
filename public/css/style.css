@@ -422,11 +422,11 @@ footer hr {
    
   }
   .hero-image {
-    margin-top: 150px;
+    margin-top: 60px;
   }
   header {
     flex-direction: column;
-    gap: 20px;
+   
   }
   .menu-toggle {
     display: block;
