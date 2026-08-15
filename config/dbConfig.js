@@ -1,7 +1,7 @@
 module.exports = {
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "portfolio_db",
-  port: 3307
+  host: process.env.MYSQLHOST || "localhost",
+  user: process.env.MYSQLUSER || "root",
+  password: process.env.MYSQLPASSWORD || "",
+  database: process.env.MYSQLDATABASE || "portfolio_db",
+  port: process.env.MYSQLPORT || 3307
 };
