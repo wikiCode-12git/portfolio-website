@@ -123,7 +123,6 @@ section{
 .about-image img {
   width: 280px;
   height: auto;
-  aspect-ratio: 896 / 1195;
   border-radius: 20px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
   display: block;
@@ -455,8 +454,8 @@ footer hr {
 .about-image img {
   width: 80vw;
   max-width: 280px;
-  height: auto !important;
-aspect-ratio: 896 / 1195;
+  height: auto;
+  border-radius: 20px;
   display: block;
 }
   .section-title {
