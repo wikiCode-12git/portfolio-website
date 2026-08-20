@@ -489,5 +489,8 @@ footer hr {
     text-align: center;
   }
 
- 
+  a .btn {
+    transition: 0.3s ease;
+    transform: translateY(-2px);
+  }
 }
