@@ -103,7 +103,7 @@ a .btn {
   color: #0077cc;
   border-radius: 8px;
   border: 2px solid #0077cc;
-  transition: 0.3s ease;
+  transition: transform 0.3s ease;
   margin-top: 6px;
   font-size: 14px;
   padding: 15px 20px;
@@ -489,8 +489,11 @@ footer hr {
     text-align: center;
   }
 
-  a .btn {
-    transition: 0.3s ease;
+  a .btn:hover {
     transform: translateY(-2px);
+  }
+
+  a .btn:active {
+    transform: translateY(2px);
   }
 }
