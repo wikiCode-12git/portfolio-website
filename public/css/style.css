@@ -97,6 +97,21 @@ section{
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
+a .btn {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  background-color: rgba(252, 251, 251, 0.308);
+  color: #0077cc;
+  border-radius: 8px;
+  border: 2px solid #0077cc;
+  transition: 0.3s ease;
+  margin-top: 6px;
+  font-size: 14px;
+  padding: 15px 20px;
+}
+
+a .btn:hover {
+  transform: translateY(2px);
+}
 /* Section Titles */
 .section-title {
   text-align: center;
@@ -473,4 +488,6 @@ footer hr {
     grid-template-columns: 1fr;
     text-align: center;
   }
+
+ 
 }
